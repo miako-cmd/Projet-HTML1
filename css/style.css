@@ -1,0 +1,145 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.background_image{
+     background-image:url('../images/facts-bg.jpg');
+}
+header{
+    background-color: rgba(0, 0, 0, 0.949);
+    /* margin: 0px; */
+}
+
+header h1{
+    font-size: 3rem;
+    margin: 0px;
+    color: white;
+}
+
+header img{
+    border-radius: 7.5rem;
+    width: 250px;
+    margin-left: 40px;
+    margin-top: 16px;
+    margin-bottom: 10px;
+}
+header .entete{
+    display: flex;
+    position: relative;
+    margin-left: 30px;
+}
+header .entete nav ul {
+    display: flex;
+    position: absolute;
+    left: 850px;
+   
+}
+header .entete nav ul li{
+    list-style-type: none;
+    margin-right: 50px;
+   text-decoration: none;
+    
+}
+header .entete nav ul li a{
+     text-decoration: none;
+     font-weight: bolder;
+     color: black;
+     font-size: 1.1rem;
+     border-radius: 70px;
+     /* border: solid black; */
+     background-color: rgba(0, 191, 255, 0.536);
+     padding: 5px;
+     margin-top: 5px;
+     color: white;
+}
+.flex{
+    display: flex;
+}
+.flex p{
+    margin-left: 435px;
+    margin-top: 150px;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    word-spacing: 10px;
+    line-height:1.5 ;
+    color: white;
+}
+main #Apropos, #travail, #CV, #contact{
+    background-color: rgba(255, 254, 253, 0.822);
+    margin-top: 100px;
+    padding: 85px;
+    border-bottom-right-radius: 300px;
+    border-top-left-radius: 55px;
+}
+main #Apropos h2, #travail h2, #CV h2, #contact h2{
+    font-weight: bold;
+    font-size: 2.0rem;
+    color: rgb(3, 123, 153);
+}
+.main p{
+    text-transform:rob;
+    font-size: 1.0rem;
+    line-height:1.5;
+}
+#CV strong{
+    color: red;
+}
+
+/* form style */
+form {
+    border: solid 2px rgba(255, 255, 255, 0.201) ;
+    width: 30%;
+    padding: 15px;
+    background-color: rgba(0, 162, 255, 0.636);
+}
+form input[type='text'], form input[type='email'], form textarea{
+    padding: 8px;
+    font-size: 1rem;
+    width: 70%;
+    border: solid 2px white;
+    margin: 6px 0;
+}
+form input[type='submit']{
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    border: none;
+    border-radius: 55px;
+    background-color: hwb(210 0% 41%);
+    padding: 8px 25px;
+    color: white;
+}
+.whatsapp{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+.whatsapp .logo{
+    width: 32px;
+}
+.whatsapp span{
+    font-size: 25px;
+    font-weight: bold;
+}
+div.form{
+    position: relative;
+}
+div.form form{
+    position:absolute;
+    top:15%;
+    left:40%
+}
+
+/* footer style */
+footer{
+    width: 100%;
+    background-color: rgba(0, 179, 255, 0.464);
+    color: black;
+}
+footer p{
+    font-size: 1.2rem;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding-top: 20px;
+}

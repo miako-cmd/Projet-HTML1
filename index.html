@@ -1,77 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Portfolio</title>
 </head>
 <body>
-    <header>
-        <h1>MON PORTFOLIO</h1>
-        <nav>
+    <div class="background_image">
+         <header>
+      <div class="entete">
+           <h1>Evolving Mind</h1>
+          <nav>
             <ul>
                 <li><a href="#Accueil">Accueil</a></li>
-                <li><a href="#A propos">A propos</a></li>
+                <li><a href="#Apropos">A propos</a></li>
                 <li><a href="#travail">travail</a></li>
-                <li><a href="#V">CV</a></li>
+                <li><a href="#CV">CV</a></li>
                 <li><a href="#Contact">Contact</a></li>
             </ul>
         </nav>
-    </header>
+      </div>
+     <div class="flex">
+         <img src="./images/photo_profil.jpg" alt="mon_profil" width="300px">
+         <section id="Accueil">
+            <p> Je découvre, je pratique, <br>j'expérimente... 
+            bienvenue dans mon <br>parcours de développeur en herbe</p>
+           </section>
+     </div>
+          
+    </header>    
+       
+    
 
-    <main>
-        <section id="Accueil">
-            <h2> <strong>WELCOME!</strong></h2>
-        </section>
-
-        <section id="A propos">
+    <section class="main">
+        <main>
+        
+        <section id="Apropos">
             <h2>A propos</h2>
-           <p>Passionné par le développement web, je m'éfforce de créer des sites modernes, fonctionnels et faciles à utiliser. <br>
-            Ce portfolio présente quelques projets sur lesquels j'ai travaillé pour renforcer mes compétences et offrir des solutions adaptées aux besoins. <br>
-             Toujours curieux et motivé, je cherche à apprendre constamment pour évoluer dans ce domaine en pleine expansion.</p>
-            <div>
-                <img src="./images/Miako_photo.jpg" alt="ma photo de profil" height="200">
-            </div>
+           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br> Ullam quas placeat optio eos et alias numquam a, ut quidem inventore accusantium rem illo, iure eum hic? <br> Minus animi magnam vitae.</p>
+
         </section>
 
         <section id="travail">
             <h2>Travail</h2>
-         <p>Je débute dans le développement web et je travaille actuellement sur des projets d'apprentissage pour maitriser Git et GitHub, et les bases du html. <br>
-        Mon objectif est de progresser rapidement et de développer bientot des projets concrets à partager.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Ab, obcaecati cupiditate magnam esse, <br>voluptas blanditiis ipsa nemo excepturi architecto nostrum numquam error nulla,<br>
+             amet mollitia cum veritatis dolore corrupti corporis!</p>
         </section>
 
         <section id="CV">
-            <h2>CV</h2>
-            <div>
-                <img src="./documents/Capture cv.PNG" alt="MON CV" width="50%" >
-            </div>
+            <h2>Mon CV</h2>
+            <p>Développeur web en herbe, je suis actuellement en formation chez GOMYCODE. Je me passionne pour la création de sites web simples, propres et fonctionnels.</p>
+            <p><strong>Compétences:</strong>HTML, CSS, Git, GitHub, Responsive Design.</p>
+            <p><strong>Formation:</strong> Programme développement web-GOMYCODE(2025).</p>
+            <a href="./documents/Capture cv.PNG">Télécharger mon CV</a>
         </section>
+    </div>
 
         <section id="Contact">
-            <h2>Contactez-moi</h2>
+            <h2>Contactez-nous</h2>
+            <div class="form">
+             <img src="./images/office.jpg" alt="office contact">
             <form>
-                
-                <input type="text" placeholder="nom et prenoms"><br><br>
-
-                <input type="email" placeholder="email"><br><br>
-
-                <textarea name="message" rows="5" placeholder="message"></textarea><br><br>
-
-                <button type="submit">envoyer</button>
-
-            </form>
-
-            <footer>
-                <p>&copy;2025 Mon portfolio.Tous droit réservés</p>
-                <div>
-                    <a href="https://github.com/miako-cmd?tab=repositories" target="_blank" >QitHub</a>
-
-                    <a href="mailto: arnaudmiako28@gmail.com">Email</a>
+                <div class="whatsapp">
+                    <img class="logo" src="./images/whatsapp.png" alt="whatsapp">
+                    <span class="number">0778354004</span>
                 </div>
-            </footer>
-
+                
+                <input type="text" name="nom" placeholder="entrez votre nom">
+                <input type="email" name="email" placeholder="email">
+                <textarea name="message" id="" rows="5"></textarea>
+                <input type="submit" value="envoyez votre message">
+            </form>
+           </div>
         </section>
     </main>
+    </section>
+
+    
+        
+            
+            <footer>
+                 <p>Tous droits réservés <a href="https://github.com/miako-cmd?tab=repositories"target="_blank">GitHub</a>&copy;2025 </p>
+                
+            </footer>
+
+    
     
 </body>
 </html>
+
